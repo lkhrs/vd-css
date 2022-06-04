@@ -1,0 +1,40 @@
+table {
+	font-family: monospace;
+	border-collapse: separate;
+	border-spacing: 3px;
+	border: solid #87afd7;
+	border-width: 10px 0 10px 0;
+}
+
+td,
+th {
+	padding-left: 15px;
+	padding-right: 15px;
+	box-shadow: 1px 0 0 white,
+		2px 0 0 black;
+}
+
+td:last-child,
+th:last-child {
+	box-shadow: none;
+}
+
+th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+tr:hover,
+tr:focus {
+	background: black;
+	color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	tr:hover,
+	tr:focus {
+		background: #bfbfbf;
+		color: black;
+	}
+}
