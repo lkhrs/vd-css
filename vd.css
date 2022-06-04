@@ -30,6 +30,11 @@ tr:focus {
 	color: white;
 }
 
+td:hover,
+th:hover {
+	font-weight: bold;
+}
+
 @media (prefers-color-scheme: dark) {
 
 	tr:hover,
