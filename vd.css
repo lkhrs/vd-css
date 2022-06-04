@@ -12,6 +12,7 @@ th {
 	padding-right: 15px;
 	box-shadow: 1px 0 0 white,
 		2px 0 0 #1e1e1e;
+	line-height: 0.8;
 }
 
 td:last-child,
@@ -22,12 +23,15 @@ th:last-child {
 th {
 	text-align: left;
 	border-bottom: 1px solid;
-	line-height: 0.8;
 	padding-top: 5px;
 }
 
-tr:hover,
-tr:focus {
+td {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+tr:hover {
 	background: #1e1e1e;
 	color: white;
 }
@@ -38,11 +42,18 @@ th:hover {
 }
 
 @media (prefers-color-scheme: dark) {
+	table {
+		color: #bfbfbf;
+	}
 
-	tr:hover,
-	tr:focus {
+	tr:hover {
 		background: #bfbfbf;
 		color: #1e1e1e;
+	}
+
+	tr:hover td {
+		box-shadow: 1px 0 0 #bfbfbf,
+			2px 0 0 #1e1e1e;
 	}
 
 	td,
