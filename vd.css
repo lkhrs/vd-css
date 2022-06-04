@@ -21,7 +21,7 @@ th:last-child {
 
 th {
 	text-align: left;
-	border-bottom: 1px solid;
+	text-decoration: underline;
 }
 
 tr:hover,
