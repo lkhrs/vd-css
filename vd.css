@@ -32,10 +32,16 @@ td {
 	padding-bottom: 3px;
 }
 
-tr:hover {
+tbody tr:nth-child(odd) {
+	background: #eee;
+}
+
+tr:hover,
+tbody tr:nth-child(odd):hover {
 	background: #1e1e1e;
 	color: white;
 }
+
 
 td:hover,
 th:hover {
@@ -48,7 +54,12 @@ th:hover {
 		color: #bfbfbf;
 	}
 
-	tr:hover {
+	tbody tr:nth-child(odd) {
+		background: #303030;
+	}
+
+	tr:hover,
+	tbody tr:nth-child(odd):hover {
 		background: #bfbfbf;
 		color: #1e1e1e;
 	}
