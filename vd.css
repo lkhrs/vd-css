@@ -51,7 +51,8 @@ th:hover {
 		color: #1e1e1e;
 	}
 
-	tr:hover td {
+	tr:hover td,
+	tr:hover th {
 		box-shadow: 1px 0 0 #bfbfbf,
 			2px 0 0 #1e1e1e;
 	}
