@@ -11,7 +11,7 @@ th {
 	padding-left: 15px;
 	padding-right: 15px;
 	box-shadow: 1px 0 0 white,
-		2px 0 0 black;
+		2px 0 0 #1e1e1e;
 }
 
 td:last-child,
@@ -26,7 +26,7 @@ th {
 
 tr:hover,
 tr:focus {
-	background: black;
+	background: #1e1e1e;
 	color: white;
 }
 
@@ -35,6 +35,12 @@ tr:focus {
 	tr:hover,
 	tr:focus {
 		background: #bfbfbf;
-		color: black;
+		color: #1e1e1e;
+	}
+
+	td,
+	th {
+		box-shadow: 1px 0 0 #1e1e1e,
+			2px 0 0 #bfbfbf;
 	}
 }
